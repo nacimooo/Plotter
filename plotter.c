@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 
+
 // shape 1: oblongs
 void repeat(int times){
 	// make the top and bottom lines of the square
@@ -174,12 +175,7 @@ void create_diamond(int height){
 	
 	}
 
-int main(){
-	system("clear");
-	printf("\n\n\n----------------------------------------------------------------------------------------------------\n\t\t\t****plotter v1.5, now works with squares, trianlges and diamonds****\n\t\t\t\t\tcode by nacim khelifi\n----------------------------------------------------------------------------------------------------\n\n\n");
-
-	
-	void return_stuff(){
+void return_stuff(){
 		printf("what structure do want to make? (type 1 for oblong / type 2 for triagle / type 3 for diamond) ");
 		int type;
 		scanf("%d", &type);
@@ -217,6 +213,16 @@ int main(){
 			create_diamond(height);
 		}
 	}
+
+
+int main(){
+	system("clear");
+	printf("\n\n\n----------------------------------------------------------------------------------------------------\n\t\t\t****plotter v1.5, now works with squares, trianlges and diamonds****\n\t\t\t\t\tcode by nacim khelifi\n----------------------------------------------------------------------------------------------------\n\n\n");
+
+	
+	
+    
+    
 	return_stuff();
 	int done = 0;
 	
